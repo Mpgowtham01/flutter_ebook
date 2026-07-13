@@ -1,0 +1,57 @@
+﻿name: ebook_mobile
+description: Folio â€” Secure ebook reader for students.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # State management
+  provider: ^6.1.2
+
+  # HTTP client with interceptors
+  dio: ^5.4.3+1
+
+  # JWT stored in Android Keystore
+  flutter_secure_storage: ^9.2.2
+
+  # Local database for offline metadata
+  sqflite: ^2.3.3+1
+  path: ^1.9.0
+
+  # App documents directory
+  path_provider: ^2.1.3
+
+  # EPUB viewer
+  epub_view: ^3.2.0
+
+  # Cover image caching
+  cached_network_image: ^3.3.1
+
+  # Loading skeletons
+  shimmer: ^3.0.0
+
+  # XOR key derivation (SHA-256)
+  crypto: ^3.0.3
+
+  # Google Fonts (Inter + Lora)
+#  google_fonts: ^5.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  flutter_launcher_icons: ^0.11.0
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: "assets/logo.svg"
+  ios: true
+  image_path: "assets/logo.svg"

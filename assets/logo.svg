@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Orange background -->
+  <rect width="512" height="512" rx="80" fill="#FFA523"/>
+  
+  <!-- Left page -->
+  <rect x="100" y="120" width="80" height="260" fill="white" stroke="#FFA523" stroke-width="2"/>
+  
+  <!-- Right page -->
+  <rect x="240" y="120" width="80" height="260" fill="white" stroke="#FFA523" stroke-width="2"/>
+  
+  <!-- Spine/binding -->
+  <line x1="180" y1="120" x2="180" y2="380" stroke="#C86600" stroke-width="6"/>
+  <line x1="240" y1="120" x2="240" y2="380" stroke="#C86600" stroke-width="6"/>
+  
+  <!-- Decorative lines on pages -->
+  <line x1="115" y1="180" x2="165" y2="180" stroke="#F0F0F0" stroke-width="3"/>
+  <line x1="115" y1="220" x2="165" y2="220" stroke="#F0F0F0" stroke-width="3"/>
+  <line x1="115" y1="260" x2="165" y2="260" stroke="#F0F0F0" stroke-width="3"/>
+  
+  <line x1="255" y1="180" x2="305" y2="180" stroke="#F0F0F0" stroke-width="3"/>
+  <line x1="255" y1="220" x2="305" y2="220" stroke="#F0F0F0" stroke-width="3"/>
+  <line x1="255" y1="260" x2="305" y2="260" stroke="#F0F0F0" stroke-width="3"/>
+</svg>
